@@ -1,9 +1,8 @@
 # Wolf-Parking-Database-Management
 
-
 The primary project narrative for the Database Management Concepts and Systems course revolves around developing the Wolf Parking Management System. It aims to model the Wolf Parking Management System based on insights obtained from the university parking manager and designed to oversee campus parking lots and users. This project handles parking lot availability, zone specifications, permit assignments, and citation tracking. Administrators manage space availability, assign permits, track citations, and generate reports for efficient parking management.
 
-It's intended to maintain comprehensive information that covers all the below following key aspects:
+It is intended to maintain comprehensive information that covers all the below following key aspects:
 
 Driver Information: Including names, statuses denoted as ‘S’ (Student), ‘E’ (Employee), or ‘V’ (Visitor), and respective IDs or phone numbers as unique identifiers.
 
@@ -19,7 +18,7 @@ Vehicle Information: Encompassing license plate numbers, vehicle models, colors,
 
 Citation Information: Tracking citation numbers, car details, citation dates, times, lots, categories (e.g., "Invalid Permit," "Expired Permit," "No Permit"), fees, and payment statuses.
 
-. However, not all information provided may need explicit capture in the database. Hence, part of the project's effort involves discerning what to retain or discard, making assumptions, and addressing potential inconsistencies while documenting these decisions and assumptions.
+However, not all information provided may need explicit capture in the database. Hence, part of the project's effort involves discerning what to retain or discard, making assumptions, and addressing potential inconsistencies while documenting these decisions and assumptions.
 
 The system administrators will have capabilities to manage parking lots, zones, spaces, permits, and citations. They can assign permits, manage vehicle lists, alter space availabilities, and verify permit validity within their respective lots. Compliance requires permits aligned with designated lot zones and types of parking spaces.
 
@@ -29,9 +28,8 @@ Students and visitors are limited to one vehicle per permit, while employees can
 
 These tasks encompass diverse operations, such as managing driver and lot information, assigning permits, tracking citations, and generating reports.
 
+The 3 project reports have information about the database schema and they are structured as follows: <br>
 
-The 3 project reports have information about the database schema and it's design
-
-Report 1: ER Diagrams and APIs
-Report 2: Database Schema and SQL statements that create the tables
-Report 3: Transactions used in the Database and how the code was structured
+Report 1: ER Diagrams and APIs. <br>
+Report 2: Database Schema and SQL statements that create the tables. <br>
+Report 3: Transactions used in the Database and how the code was structured. 
